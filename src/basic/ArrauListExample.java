@@ -19,20 +19,36 @@ public class ArrauListExample {
 
         //multi dimensional array list
 
-        ArrayList<ArrayList<Integer>> list2 = new ArrayList<>();
+//        ArrayList<ArrayList<Integer>> list2 = new ArrayList<>();
+//
+//        //initialization of list2
+//        for(int i=0 ; i < 3; i++){
+//            list2.add(new ArrayList<>());
+//        }
+//
+//        //inserting new arrays
+//        for(int i =0; i<3; i++){
+//            for(int j=0; j<3; j++){
+//                list2.get(i).add(in.nextInt());
+//            }
+//        }
+//
+//        System.out.println(list2);
+//
 
-        //initialization of list2
-        for(int i=0 ; i < 3; i++){
-            list2.add(new ArrayList<>());
+        //find maximum value
+
+        ArrayList<Integer> data = new ArrayList<>(Arrays.asList(3, 4, 5, 6, 6, 5));
+
+//        System.out.println(data.size());
+
+        for (int l =0; l<data.size(); l++){
+            System.out.println(data.get(l));
         }
 
-        //inserting new arrays
-        for(int i =0; i<3; i++){
-            for(int j=0; j<3; j++){
-                list2.get(i).add(in.nextInt());
-            }
-        }
+        //reverse array using swap
 
-        System.out.println(list2);
+
+
     }
 }
