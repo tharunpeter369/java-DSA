@@ -6,11 +6,9 @@ public class Fibnocci {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         //find the n the fibnocci number
-
         System.out.println("Enter the n th value: ");
         int nthVal = in.nextInt();
         int count = 1 ;
-
 //        System.out.println(nthVal);
         int prevVal = 0;
         int fibVal = 1;
@@ -21,7 +19,6 @@ public class Fibnocci {
             count = count + 1;
             System.out.println( count +"the");
         }
-
         System.out.println("the fibnocci value: " + fibVal);
         }
     }

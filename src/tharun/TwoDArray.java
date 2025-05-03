@@ -13,7 +13,8 @@ public class TwoDArray {
         };
 
 //        System.out.println(Arrays.toString(arr[2]));
-        System.out.println(arr[0][2]);
+//        System.out.println(arr[0][2]);
+        System.out.println(Arrays.toString(arr));
 
 //        create a 2d array
         int[][] arr3 = new int[3][4];
