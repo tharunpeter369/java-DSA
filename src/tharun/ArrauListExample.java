@@ -13,6 +13,8 @@ public class ArrauListExample {
         list.add(8);
         list.add(2);
 
+
+
         System.out.println(list);
         ArrayList<Integer> lt1 = new ArrayList<>(Arrays.asList(33,44,55));
         System.out.println(lt1);
