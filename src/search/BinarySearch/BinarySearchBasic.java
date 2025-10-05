@@ -13,7 +13,8 @@ public class BinarySearchBasic {
         int end = arr.length - 1;
 
       while(start <= end) {
-          int middle = (start+end)/2;
+//          int middle = (start+end)/2;
+          int middle = start + (end- start)/2;
           System.out.println(arr[middle]+"middle"+start);
 //           return 0;
           if (target == arr[middle]) {
