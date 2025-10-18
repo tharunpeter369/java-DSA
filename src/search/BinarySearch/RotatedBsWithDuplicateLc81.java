@@ -87,3 +87,35 @@ public class RotatedBsWithDuplicateLc81 {
 //
 //// Not found
 //Return -1
+
+
+
+//static int findPivot(int[] arr) {
+//    int start = 0; // Start at the left gate
+//    int end = arr.length - 1; // End at the right gate
+//    while (start <= end) {
+//        int mid = start + (end - start) / 2; // Peek at the middle flower
+//        // Check right: Is there a drop? (Big to small = door!)
+//        if (mid < end && arr[mid] > arr[mid + 1]) {
+//            return mid; // Found the pivot!
+//        }
+//        // Check left: Did we climb to a peak? (Small to big, door is left!)
+//        if (mid > start && arr[mid] < arr[mid - 1]) {
+//            return mid - 1; // Pivot just before mid
+//        }
+//        // Now handle the hill or twins...
+//        if (arr[start] >= arr[mid]) {
+//            if (arr[start] == arr[mid]) {
+//                // Twins! Skip one twin to keep looking
+//                start = start + 1;
+//            } else {
+//                // Real hill drop on left
+//                end = mid - 1;
+//            }
+//        } else {
+//            // Hill goes right, pivot’s there!
+//            start = mid + 1;
+//        }
+//    }
+//    return -1; // No twist? Straight path!
+//}
