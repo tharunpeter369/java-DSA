@@ -13,7 +13,7 @@ public class BubbleSort {
 //        [9,8,7,6,5,4]
         //run n-1 times
         for(int i=0; i<arr.length-1; i++ ){
-            boolean swap = false;
+            boolean swap = false; 
             for(int j =0; j<arr.length-i-1; j++){
                 System.out.println(j+"jjjj");
                 //compare logic
