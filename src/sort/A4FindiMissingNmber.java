@@ -23,6 +23,7 @@ public class A4FindiMissingNmber {
                 i++;
             }
         }
+        System.out.println(Arrays.toString(arr)+"hellooooo");
         //find missing numer
         for(int j=0; j<arr.length; j++){
             if(j != arr[j]){
